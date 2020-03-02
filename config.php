@@ -6,10 +6,10 @@ return $config = Array(
 	'test-mode'  => true,
 
 	// Secret Key from Stripe.com Dashboard
-	'secret-key' => 'sk_live_SUA KEY',
+	'secret-key' => 'sk_test_EW0a1xYr4ft34x0oEVoPMpei007RWeSAyf',
 
 	// Publishable Key from Stripe.com Dashboard
-	'publishable-key' => 'pk_live_SUA KEY',
+	'publishable-key' => 'pk_test_w3FvU66VI5VYhkjsDg78h8d000bcZylgJr',
 
 	// Where to send upon successful donation (must include http://)
 	'thank-you'  => ' thankyou.html',
@@ -18,7 +18,7 @@ return $config = Array(
 	'email-from' => 'h3lls1ng@shadow-network.cc',
 
 	// Who should be BCC'd on this email. Probably an administrative email.
-	'email-bcc'  => 'h3lls1ng@shadow-network.cc',
+	'email-bcc'  => '',
 
 	// Subject of email receipt
 	'email-subject' => 'Obrigado por Doar!!',
